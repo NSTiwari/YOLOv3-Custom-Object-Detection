@@ -14,7 +14,7 @@ colors = np.random.uniform(0, 255, size=(100, 3))
 
 while True:
     #_, img = cap.read()
-    img = cv2.imread("images/wasteimage935.jpg")
+    img = cv2.imread("test_images/wasteimage935.jpg")
     height, width, _ = img.shape
 
     blob = cv2.dnn.blobFromImage(img, 1/255, (416, 416), (0,0,0), swapRB=True, crop=False)
