@@ -8,13 +8,13 @@ with open("classes.txt", "r") as f:
     classes = f.read().splitlines()
 
 #cap = cv2.VideoCapture('video4.mp4')
-#cap = 'test_images/image1.jpg'
+#cap = 'test_images/<your_test_image>.jpg'
 font = cv2.FONT_HERSHEY_PLAIN
 colors = np.random.uniform(0, 255, size=(100, 3))
 
 while True:
     #_, img = cap.read()
-    img = cv2.imread("test_images/image1.jpg")
+    img = cv2.imread("test_images/<your_test_image>.jpg")
     height, width, _ = img.shape
 
     blob = cv2.dnn.blobFromImage(img, 1/255, (416, 416), (0,0,0), swapRB=True, crop=False)
