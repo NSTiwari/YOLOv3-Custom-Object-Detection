@@ -4,7 +4,7 @@
 
 1. Prepare your dataset and label them in YOLO format using `LabelImg`. Once done, zip all the images and their corresponding label files as `images.zip`.
 
-2. Create a folder named `yolov3` on Drive and upload the `images.zip` file inside it. The directory structure should look something like the following:
+2. Create a folder named `yolov3` on Google Drive and upload the `images.zip` file inside it. The directory structure should look something like the following:
 ```
 yolov3
 |__images.zip
