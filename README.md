@@ -2,7 +2,7 @@
 
 ## Steps:
 
-1. Prepare your dataset and label them in YOLO format using `LabelImg`. Once done, zip all the images and their corresponding label files as `images.zip`.
+1. Prepare your dataset and label them in YOLO format using [LabelImg](https://github.com/tzutalin/labelImg). Once done, zip all the images and their corresponding label files as `images.zip`.
 
 2. Create a folder named `yolov3` on Google Drive and upload the `images.zip` file inside it. The directory structure should look something like the following:
 ```
@@ -25,3 +25,5 @@ yolov3
 7. Create a new folder named `test_images` inside the repository and save some test images inside it which you'd like to test the model on.
 
 8. Open the `Object_Detection.py` file inside the repository and edit **Line 17**  by replacing `<your_test_image` with the name of the image file you want to the test.
+
+9. Run the command: `python Object_Detection.py`.
