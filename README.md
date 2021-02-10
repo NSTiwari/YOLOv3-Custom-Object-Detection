@@ -13,7 +13,7 @@ yolov3
 ```
 3. Clone the repository and upload the `YOLOv3_Custom_Object_Detection.ipynb` notebook on Google Colab.
 
-4. Run the cells one-by-one by following instructions as stated in the notebook. For detailed explanation, refer the following [document]: (https://github.com/NSTiwari/YOLOv3-Custom-Object-Detection/blob/main/YOLOv3%20Custom%20Object%20Detection%20with%20Transfer%20Learning.pdf(
+4. Run the cells one-by-one by following instructions as stated in the notebook. For detailed explanation, refer the following [document]: (https://github.com/NSTiwari/YOLOv3-Custom-Object-Detection/blob/main/YOLOv3%20Custom%20Object%20Detection%20with%20Transfer%20Learning.pdf)
 
 5. Once the training is completed, download the following files from the `yolov3` folder saved on Google Drive on your local machine.
    - `yolov3_training_last.weights`
