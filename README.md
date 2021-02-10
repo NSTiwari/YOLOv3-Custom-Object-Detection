@@ -27,3 +27,7 @@ yolov3
 8. Open the `Object_Detection.py` file inside the repository and edit **Line 17**  by replacing `<your_test_image` with the name of the image file you want to the test.
 
 9. Run the command: `python Object_Detection.py`.
+
+## Output:
+
+![GitHub Logo](/image/output.jpg)
