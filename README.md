@@ -24,7 +24,7 @@ yolov3
 
 7. Create a new folder named `test_images` inside the repository and save some test images inside it which you'd like to test the model on.
 
-8. Open the `Object_Detection.py` file inside the repository and edit **Line 17**  by replacing `<your_test_image` with the name of the image file you want to the test.
+8. Open the `Object_Detection.py` file inside the repository and edit **Line 17**  by replacing `<your_test_image>` with the name of the image file you want to the test.
 
 9. Run the command: `python Object_Detection.py`.
 
