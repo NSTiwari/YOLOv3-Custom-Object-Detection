@@ -1,4 +1,4 @@
-# YOLOv3-Custom-Object-Detection
+# YOLOv3 Custom Object Detection with Transfer Learning
 
 ## Steps:
 
