@@ -31,3 +31,5 @@ yolov3
 ## Output:
 
 ![GitHub Logo](/image/output.jpg)
+
+- Read the [Medium blog](https://tiwarinitin1999.medium.com/yolov3-custom-object-detection-with-transfer-learning-47186c8f166d) for step-by-step implementation.
